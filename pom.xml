@@ -5,7 +5,7 @@
     <groupId>com.indraep.telebot</groupId>
     <artifactId>telegram-plugin</artifactId>
     <packaging>pom</packaging>
-    <version>0.1.0</version>
+    <version>0.1.1-SNAPSHOT</version>
 
     <modules>
         <module>telegram-plugin-bot-client</module>
