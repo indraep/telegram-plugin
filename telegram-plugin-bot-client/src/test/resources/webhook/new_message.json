@@ -1,0 +1,23 @@
+{
+  "message": {
+    "from": {
+      "id": 12,
+      "username": "indraep",
+      "first_name": "Indra Eka",
+      "last_name": "Prasetya",
+      "language_code": "en"
+    },
+    "date": 1594468892,
+    "chat": {
+      "id": 76102864,
+      "type": "private",
+      "username": "indraep",
+      "first_name": "Indra Eka",
+      "last_name": "Prasetya"
+    },
+    "text": "ini pesan biasa",
+    "message_id": 144,
+    "forward_from_message_id": 0
+  },
+  "update_id": 212721428
+}

@@ -1,0 +1,29 @@
+{
+  "update_id": 212721435,
+  "edited_message": {
+    "from": {
+      "id": 21,
+      "username": "indraep",
+      "first_name": "Indra Eka",
+      "last_name": "Prasetya",
+      "language_code": "en"
+    },
+    "date": 1594475080,
+    "chat": {
+      "id": -139713206,
+      "type": "group",
+      "title": "Idut VS Epup"
+    },
+    "text": "/coba@indraep_bot ini coba edit",
+    "entities": [
+      {
+        "type": "bot_command",
+        "offset": 0,
+        "length": 17
+      }
+    ],
+    "message_id": 148,
+    "forward_from_message_id": 0,
+    "edit_date": 1594475452
+  }
+}

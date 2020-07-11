@@ -1,0 +1,33 @@
+{
+  "message": {
+    "from": {
+      "id": 76102864,
+      "username": "indraep",
+      "first_name": "Indra Eka",
+      "last_name": "Prasetya",
+      "language_code": "en"
+    },
+    "date": 1594475844,
+    "chat": {
+      "id": -139713206,
+      "type": "group",
+      "title": "Idut VS Epup"
+    },
+    "text": "/add_todo@indraep_bot  @indraep_bot mention",
+    "entities": [
+      {
+        "type": "bot_command",
+        "offset": 0,
+        "length": 21
+      },
+      {
+        "type": "mention",
+        "offset": 23,
+        "length": 12
+      }
+    ],
+    "message_id": 150,
+    "forward_from_message_id": 0
+  },
+  "update_id": 212721436
+}

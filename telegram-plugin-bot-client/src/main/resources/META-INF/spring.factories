@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.indraep.telegram.plugin.bot.client.auto_configuration.TelebotClientAutoConfiguration

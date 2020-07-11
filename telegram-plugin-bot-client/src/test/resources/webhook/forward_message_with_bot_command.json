@@ -1,0 +1,35 @@
+{
+  "message": {
+    "from": {
+      "id": 321,
+      "username": "indraep",
+      "first_name": "Indra Eka",
+      "last_name": "Prasetya",
+      "language_code": "en"
+    },
+    "date": 1594479314,
+    "chat": {
+      "id": -139713206,
+      "type": "group",
+      "title": "Idut VS Epup"
+    },
+    "text": "/coba@indraep_bot param from forward ",
+    "entities": [
+      {
+        "type": "bot_command",
+        "offset": 0,
+        "length": 21
+      }
+    ],
+    "message_id": 152,
+    "forward_from": {
+      "id": 89468080,
+      "username": "annisaprida",
+      "first_name": "Annisa Prida",
+      "last_name": "R"
+    },
+    "forward_from_message_id": 0,
+    "forward_date": 1594469183
+  },
+  "update_id": 212721438
+}

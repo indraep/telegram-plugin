@@ -1,0 +1,17 @@
+blibli.backend.apiclient.packages: com.indraep.telegram.plugin.bot.client
+
+# Spring Jackson Configuration
+spring.jackson:
+  generator.ignore-unknown: true
+  default-property-inclusion: non_null
+  deserialization.read-unknown-enum-values-as-null: true
+  serialization.write-null-map-values: false
+
+# Telebot Client Configuration
+blibli.backend.apiclient.configs.telebotClient:
+  url: http://localhost:8089
+  connect-timeout: 5s
+  read-timeout: 5s
+  write-timeout: 5s
+
+telegram.bot.token: EXTOKEN

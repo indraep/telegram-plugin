@@ -1,0 +1,40 @@
+{
+  "update_id": 212721432,
+  "callback_query": {
+    "id": "326859314899285782",
+    "from": {
+      "id": 987,
+      "username": "indraep",
+      "first_name": "Indra Eka",
+      "last_name": "Prasetya",
+      "language_code": "en"
+    },
+    "message": {
+      "from": {
+        "id": 785409173,
+        "username": "indraep_bot",
+        "first_name": "indraep_bot"
+      },
+      "date": 1594450634,
+      "chat": {
+        "id": 76102864,
+        "type": "private",
+        "username": "indraep",
+        "first_name": "Indra Eka",
+        "last_name": "Prasetya"
+      },
+      "text": "coba",
+      "entities": [
+        {
+          "type": "bold",
+          "offset": 0,
+          "length": 4
+        }
+      ],
+      "message_id": 141,
+      "forward_from_message_id": 0
+    },
+    "data": "inline callback data",
+    "chat_instance": "-107071864301286966"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "message": {
+    "from": {
+      "id": 76102864,
+      "username": "indraep",
+      "first_name": "Indra Eka",
+      "last_name": "Prasetya",
+      "language_code": "en"
+    },
+    "date": 1594469010,
+    "chat": {
+      "id": 76102864,
+      "type": "private",
+      "username": "indraep",
+      "first_name": "Indra Eka",
+      "last_name": "Prasetya"
+    },
+    "text": "/add_todo ini command bot tanpa nama",
+    "entities": [
+      {
+        "type": "bot_command",
+        "offset": 0,
+        "length": 9
+      }
+    ],
+    "message_id": 145,
+    "forward_from_message_id": 0
+  },
+  "update_id": 212721429
+}
