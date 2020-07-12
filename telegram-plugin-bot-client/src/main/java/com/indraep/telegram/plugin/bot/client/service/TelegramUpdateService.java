@@ -18,6 +18,8 @@ public interface TelegramUpdateService {
 
   Optional<String> getInlineCallback(WebhookUpdate update);
 
+  long getChatId(WebhookUpdate update);
+
   long getMessageId(WebhookUpdate update);
 
   long getSenderId(WebhookUpdate update);

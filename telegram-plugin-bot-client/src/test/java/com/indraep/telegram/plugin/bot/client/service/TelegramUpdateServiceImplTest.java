@@ -121,6 +121,15 @@ public class TelegramUpdateServiceImplTest {
   }
 
   @Test
+  public void getChatIdTest() {
+    assertEquals(910L, telegramUpdateService.getChatId(newMessage));
+    assertEquals(92L, telegramUpdateService.getChatId(replyMessage));
+    assertEquals(-21L, telegramUpdateService.getChatId(editMessage));
+    assertEquals(-9231L, telegramUpdateService.getChatId(forwardMessage));
+    assertEquals(321L, telegramUpdateService.getChatId(inlineCallback));
+  }
+
+  @Test
   public void getMessageIdTest() {
     assertEquals(144L, telegramUpdateService.getMessageId(newMessage));
     assertEquals(153L, telegramUpdateService.getMessageId(replyMessage));

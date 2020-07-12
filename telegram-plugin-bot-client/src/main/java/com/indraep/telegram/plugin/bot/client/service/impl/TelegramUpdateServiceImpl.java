@@ -4,6 +4,7 @@ import com.indraep.telegram.plugin.bot.client.service.TelegramUpdateService;
 import com.indraep.telegram.plugin.bot.model.WebhookUpdate;
 import com.indraep.telegram.plugin.bot.model.constants.MessageEntityType;
 import com.indraep.telegram.plugin.bot.model.constants.UpdateType;
+import com.indraep.telegram.plugin.bot.model.response.TelegramChat;
 import com.indraep.telegram.plugin.bot.model.response.TelegramMessage;
 import com.indraep.telegram.plugin.bot.model.response.TelegramUser;
 import com.indraep.telegram.plugin.bot.model.response.nested.TelegramCallbackQuery;
@@ -67,6 +68,14 @@ public class TelegramUpdateServiceImpl implements TelegramUpdateService {
         .map(entities -> entities.get(0))
         .map(commandEntity -> extractMessageEntity(update.getMessage(), commandEntity))
         .flatMap(command -> getBotCommand(command));
+  }
+
+  @Override
+  public long getChatId(WebhookUpdate update) {
+    return getMessage(update)
+        .map(TelegramMessage::getChat)
+        .map(TelegramChat::getId)
+        .orElseThrow(() -> new RuntimeException("unsupported message"));
   }
 
   @Override
