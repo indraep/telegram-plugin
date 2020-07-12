@@ -2,9 +2,10 @@ package com.indraep.telegram.plugin.bot.model.request.markup;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.indraep.telegram.plugin.bot.model.request.markup.reply_keyboard.ReplyKeyboardButton;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
 import java.util.List;
@@ -12,8 +13,9 @@ import java.util.List;
 /**
  * Created by indraep on 3/26/17.
  */
-@Getter
-@EqualsAndHashCode
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 @SuperBuilder(builderMethodName = "privateBuilder")
 public class ReplyKeyboardMarkup implements ReplyMarkup {
 

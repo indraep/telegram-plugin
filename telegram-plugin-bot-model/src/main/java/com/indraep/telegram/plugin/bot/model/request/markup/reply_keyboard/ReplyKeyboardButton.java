@@ -1,15 +1,19 @@
 package com.indraep.telegram.plugin.bot.model.request.markup.reply_keyboard;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
 /**
  * Created by indraep on 3/26/17.
  */
-@Getter
-@EqualsAndHashCode
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 @SuperBuilder(builderMethodName = "privateBuilder")
 public class ReplyKeyboardButton {
     private String text;
